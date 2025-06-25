@@ -3,6 +3,7 @@ import { Grid, Paper, Box } from '@mui/material';
 import Header from './components/Header';
 import Alertas from './components/Alertas';
 import Selector from './components/Selector';
+import SelectorUI from './components/SelectorUI';
 import Indicadores from './components/Indicadores';
 import Grafico from './components/Grafico';
 import Tabla from './components/Tabla';
@@ -75,7 +76,7 @@ function App() {
         </Grid>
         <Grid size={{ xs: 12, md: 4 }}>
           <Paper sx={{ p: 1, borderRadius: 3, boxShadow: 2, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <Selector location={location} setLocation={setLocation} />
+            <SelectorUI />
           </Paper>
         </Grid>
         {/* Tercera fila: Gráfico e Indicadores */}
