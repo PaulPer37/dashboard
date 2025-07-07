@@ -1,0 +1,19 @@
+{
+  "name": "openmeteo-typescript",
+  "version": "1.0.0",
+  "description": "A TypeScript project to interact with the Open-Meteo API.",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.2",
+    "@types/node": "^16.11.7"
+  },
+  "author": "",
+  "license": "ISC"
+}
